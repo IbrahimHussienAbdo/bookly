@@ -19,7 +19,7 @@ void main() {
 }
 
 class Bookly extends StatelessWidget {
-  const Bookly({Key? key}) : super(key: key);
+  const Bookly({super.key});
 
   @override
   Widget build(BuildContext context) {
